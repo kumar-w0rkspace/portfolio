@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form Element</title>
+  </head>
+
+  <body>
+    <b> <h1>Form Element</h1> </b>
+
+    <h2>Description</h2>
+    <br />
+
+    <h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+      architecto soluta minima deleniti sed, ipsum praesentium est dolor
+      temporibus nesciunt.
+    </h3>
+    <!--form with data save(Need server setup)-->
+    <form action="action_page.php" method="post">
+      <!-- form generation-->
+      <div>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" placeholder="Enter First Name" required />
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" placeholder="Enter Last Name" required />
+      </div>
+      <br />
+      <div>
+        <label for="pword">Password</label>
+        <input
+          type="text"
+          name="pword"
+          id="password"
+          placeholder="Enter Password"
+          maxlength="12"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="email">email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="randompw@host.com"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="phone">Phone #:</label>
+        <input
+          type="tel"
+          name="phone"
+          id="telephone "
+          placeholder="Enter your telephone number"
+          maxlength="10"
+        />
+      </div>
+      <br />
+      <div>
+        <label type="birthdate">Enter Birthday</label>
+        <input
+          type="date"
+          name="birthdate"
+          id="birthdate"
+          placeholder="Enter Birthday"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="quantity">Enter Counts</label>
+        <input
+          type="number"
+          name="quantity"
+          id="quantity"
+          placeholder="Enter total quantity"
+          min="0"
+          max="500"
+          value="1"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="Gender">Gender:</label>
+
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" value="Male" />
+
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" value="Female" />
+
+        <label for="Nope">Nope</label>
+        <input type="radio" name="gender" value="Nope" />
+      </div>
+<br>
+      <div>
+        <!--dropdown menu-->
+
+        <label for="payment">Payment:</label>
+        <select name="payment" id="payment">
+          <option value="visa">Visa</option>
+          <option value="mastercard">MasterCard</option>
+          <option value="giftcard">GiftCard</option>
+          <option value="crypto">Crypto</option>
+        </select>
+      </div>
+<br>
+      <div>
+        <!--checkbox-->
+        <label for="Logout">Click to Logout</label>
+        <input type="checkbox" id="Logout" name="Logout" />
+      </div>
+
+      <br /><br />
+      <div><input type="reset" /></div>
+      <br />
+      <!--reset button for the form-->
+      <div><input type="submit" /></div>
+      <!--submit button for the form-->
+    </form>
+
+    <!--footer part-->
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <h5 align="left">ABOUT US</h5>
+  </body>
+</html>
