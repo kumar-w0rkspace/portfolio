@@ -1,46 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-   
-</head>
-<body>
+  </head>
+  <style>
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+
+        h1 {
+            border-bottom: 2px solid #5900ffb9;
+            padding-bottom: 10px;
+        }
+    footer {text-align: center;
+            padding: 5px 0; /* Reduced padding for a smaller footer */
+            background-color: #a3a4d4;
+            color: #111111;
+            position: sticky;
+            width: 100%;
+            bottom: 0;
+            font-size: 12px; /* Reduced font size for a smaller footer */
+        }
+  </style>
+   <body>
     <header>
-        <h1>My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#contact">Rando Xcase</a></li>
-            </ul>
-        </nav>
-    </header>
-    <br>
+      <h1>Arun Kumar M.S.</h1>
+      <h3><p>Portfolio</p></H3></header>
+    
+   
     <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Write a brief introduction about yourself here.</p>
-        </section>
-        <br>
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="portfolio-item">
-                <h3>Project Title</h3>
-                <p>Describe your project here.</p>
-            </div>
-            <!-- Add more projects as needed -->
-        </section>
-        <br><br>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Provide your contact information here.</p>
-        </section>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Write a brief introduction about yourself here.</p>
+        <a href="profilesummary.html">Profile Summary</a>
+      </section> <br>
+      
+      <section id="education">
+        <h2>Education</h2>
+        <p>Details about Education, Courses and Certifications.</p>
+        <a href="education.html">Certifications</a>
+      </section> <br>
+     
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="portfolio-item">
+          <h3>Project Title</h3>
+          <p>Describe your project here.</p>
+        </div>
+        <!-- Add more projects as needed -->
+        <a href="projects.html">Projects</a>
+      </section>     
+      
+      
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Provide your contact information here.</p>
+        <a href="contactme.html">Contact Me</a>
+      </section>
     </div>
+    
     <footer>
-        <p>© 2024 My Portfolio</p>
-    </footer>
-</body>
+      <p>&copy; Kumar - 2024</p>
+  </footer>
+  </body>
 </html>
