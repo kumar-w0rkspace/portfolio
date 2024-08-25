@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>More About Me</title>
+    <title>My Details</title>
     <style>
+      header {
+            background-color: #dad6d6;
+            color: #000000;
+            padding: 10px 0;
+            text-align: center;
+        }
       body {
         font-family: Arial, sans-serif;
         margin: 0;
@@ -20,14 +26,8 @@
       section {
         margin: 20px 0;
       }
-      h2 {
-        border-bottom: 2px solid #000000;
-        padding-bottom: 10px;
-      }
-      h1 {
-        border-bottom: 2px solid #5900ffb9;
-        padding-bottom: 10px;
-      }
+      
+      
       .education,
       .certifications {
         margin-bottom: 20px;
@@ -35,43 +35,54 @@
       .item {
         margin-bottom: 10px;
       }
-      footer {
-        text-align: center;
-        padding: 5px 0; /* Reduced padding for a smaller footer */
-        background-color: #a3a4d4;
-        color: #111111;
-        position: dynamic;
-        width: 100%;
-        bottom: 0;
-        font-size: 12px; /* Reduced font size for a smaller footer */
-      }
+      h1 {
+            border-bottom: 3px solid #000000b9;
+            padding-bottom: 10px;
+        }
+        h6 {
+            position: relative;
+            bottom: 10px;
+            border-bottom: 3px solid #665d5db2;
+            padding-bottom: 10px;
+        }
+    footer {text-align: center;
+            padding: .5px 0; /* Reduced padding for a smaller footer */
+            background-color: #000000b9;
+            color: #ffffff;
+            position: dynamic;
+            width: 100%;
+            bottom: 0;
+            font-size: 15px; /* Reduced font size for a smaller footer */
+        }
     </style>
   </head>
   <body>
     <header>
         
-      <h1>Arun Kumar M.S.</h1>
-      <ul><img src="resources/image2.jpg" width="300" height="200" alt="profilepicture.img" /></ul>
-      <ul><h4><p>More About Me</p></h4></ul>
+      <h1>Personal Details</h1>
+      
     </header>
- 
+    <ul><h4><p>More About Me</p></h4>
+      <img src="resources/image2.jpg" width="300" height="200" alt="profilepicture.img" />
+      </ul>
+    
     <div class="container">
       <section class="education">
-        <h2>BASIC INFO</h2>
+        <h2><u>BASIC INFO</u></h2>
         <div class="item">
           <li>Nationality : Indian</li>
           <li>Gender : Male</li>
           <li>Marital Status : ********</li>
           <li>DOB : **/**/****</li>
-        </div>
-        <h2>LANGUAGES</h2>
+        </div><h6></h6>
+        <h2><u>LANGUAGES</u></h2>
         <div class="item">
           <ul>
             <li>English</li>
             <li>Malayalam</li>
             <li>Hindi</li></ul>
-        </div>
-        <h2>STRENGTHS</h2>
+        </div><h6></h6>
+        <h2><u>STRENGTHS</u></h2>
         <div class="item">
           <ul>
             <li>Leveraging AI tools through effective prompt engineering</li>
@@ -81,8 +92,8 @@
             <li>Ability to work in a team</li>
             <li>Leadership quality</li></ul>
           
-        </div>
-        <h2>INTERESTS</h2>
+        </div><h6></h6>
+        <h2><u>INTERESTS</u></h2>
         <div class="item">
           <ul>
             <li>PC Enthusiast</li>
@@ -99,7 +110,7 @@
     </div>
     <a href="index.html"><h5><strong>Go to Home Page</strong></h5></a>
     <footer>
-      <p>&copy; Kumar - 2024</p>
+      <p><strong>&copy; Kumar - 2024</strong></p>
     </footer>
   </body>
 </html>

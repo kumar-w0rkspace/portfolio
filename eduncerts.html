@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Edu and Certs</title>
+    <title>Certification Details</title>
     <style>
+      header {
+            background-color: #dad6d6;
+            color: #000000;
+            padding: 10px 0;
+            text-align: center;
+        }
       body {
         font-family: Arial, sans-serif;
         margin: 0;
@@ -20,14 +26,7 @@
       section {
         margin: 20px 0;
       }
-      h2 {
-        border-bottom: 2px solid #000000;
-        padding-bottom: 10px;
-      }
-      h1 {
-        border-bottom: 2px solid #5900ffb9;
-        padding-bottom: 10px;
-      }
+      
       .education,
       .certifications {
         margin-bottom: 20px;
@@ -35,27 +34,37 @@
       .item {
         margin-bottom: 10px;
       }
-      footer {
-            text-align: center;
-            padding: 5px 0; /* Reduced padding for a smaller footer */
-            background-color: #a3a4d4;
-            color: #111111;
+      
+      h1 {
+            border-bottom: 3px solid #000000b9;
+            padding-bottom: 10px;
+        }
+        h6 {
+            position: relative;
+            bottom: 10px;
+            border-bottom: 3px solid #665d5db2;
+            padding-bottom: 10px;
+        }
+    footer {text-align: center;
+            padding: .5px 0; /* Reduced padding for a smaller footer */
+            background-color: #000000b9;
+            color: #ffffff;
             position: dynamic;
             width: 100%;
             bottom: 0;
-            font-size: 12px; /* Reduced font size for a smaller footer */
+            font-size: 15px; /* Reduced font size for a smaller footer */
         }
     </style>
   </head>
   <body>
     <header>
-      <h1>Arun Kumar M.S</h1>
-      <H4><p>Education & Certifications</p></H4>
+      <h1>Certifications</h1>
+      
     </header>
-
+    <H4><p>Education & Certifications</p></H4>
     <div class="container">
       <section class="education">
-        <h2>Education</h2>
+        <h2><u>Education</u></h2>
         <ul><div class="item">
           <li><h3>MCA</h3>
             <p>Institution: IGNOU - Kerala</p>
@@ -78,10 +87,11 @@
             <p>Institution: CHRIST NAGAR ENGLISH HIGH SCHOOL - Kerala</p>
             <p>Graduation Date: 2005</p></li>
         </div></ul>
+        <h6></h6>
       </section>
-      <br>
+      
       <section class="certifications">
-        <h2>Certifications</h2>
+        <h2><u>Certifications</u></h2>
         <ul><div class="item">
           <li><h3>Software Auxiliary Services Engineering</h3>
             <p>AY Tech 2024</p></li>
@@ -108,7 +118,7 @@
   
     <a href="index.html"><h5><strong>Go to Home Page</strong></h5></a>
       <footer>
-        <p>&copy; Kumar - 2024</p>
+        <p><strong>&copy; Kumar - 2024</strong></p>
     </footer>
   </body>
 </html>
