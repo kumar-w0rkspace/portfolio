@@ -10,3 +10,4 @@ PortfolioPage - working out with webpage and elements
 24-Aug : Projects minor modified - 30%  
 24-Aug : Knowledge Summary Modified -70%    
 24-Aug : Contact Me Modified -90%   
+30-Aug : Removed dummy image
