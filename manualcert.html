@@ -13,7 +13,7 @@
             color: #333;
         }
         .container {
-            width: 80%;
+            width: 100%;
             margin: 0 auto;
             padding: 20px;
         }
@@ -23,8 +23,15 @@
             padding: 10px 0;
             text-align: center;
         }
-        
-        
+        @media only screen and (max-width: 600px) {
+            .container {
+                width: 90%;
+            }
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
         .img {
             width: 100%;
             height: auto;
@@ -74,3 +81,4 @@
     </footer>
 </body>
 </html>
+
