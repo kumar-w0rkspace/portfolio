@@ -10,8 +10,9 @@ Resume page - working out with webpage and elements
 24-Aug : Projects minor modified - 40%  
 24-Aug : Knowledge Summary Modified -80%    
 24-Aug : Contact Me Modified -90%  
-30-Aug : Removed dummy image
-03-Sep : Added Manual Testing Certificate
-03-Sep : Updated profile picture
-03-Sep : Added Contact
-08-Apr : Removed unnecessary files
+30-Aug : Removed dummy image  
+03-Sep : Added Manual Testing Certificate  
+03-Sep : Updated profile picture  
+03-Sep : Added Contact  
+03-Apr : Added Automation Certificate  
+08-Apr : Removed unnecessary files  
