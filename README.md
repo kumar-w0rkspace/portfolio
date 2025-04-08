@@ -14,3 +14,4 @@ Resume page - working out with webpage and elements
 03-Sep : Added Manual Testing Certificate
 03-Sep : Updated profile picture
 03-Sep : Added Contact
+08-Apr : Removed unnecessary files
